@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+   
+.parents-container{
+    width: 100%;
+}
+.navbar{
+    padding: 0px 70px;
+    width: 100%;
+    background-color: #444;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+
+}
+.navbar div{
+    display: flex;
+  align-items: center;
+  height: 100%; 
+}
+.navbar .nav-child-left  img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 13px;
+    height: 100%;
+    padding: 3px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    color: wheat;
+   font-family: 'Noto Sans Arabic', sans-serif;
+}
+
+.navbar a:hover{
+    background-color: rgb(135, 135,135);
+}
+.navbar a i{
+    font-size: 17px;
+}
+.navbar .nav-child-right img{
+    width: 140px;
+    height: 80%;
+    padding: 13px;
+
+}
+.navbar .nav-child-right a i{
+    margin: 0px 5px;
+    font-size: 13px;
+}
+.navbar .nav-child-right a i.fa-bars{
+    font-size: 20px;
+}
+/* end navbar*/
+/*  start main */
+main { 
+       
+    background-image: url('  C:\Users\Mohamed Elnady\Desktop\خمسات\55h.jpg');
+    min-height: 100vh;
+    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+main h3{
+    font-size: 35px;
+    font-family: ' Noto Sana=s Arabic ', sans-serif;
+    text-align: center;
+}
+main p{
+    font-size: 20px;
+    margin: 20px 0px;
+}
+main .parant-search{
+    position: relative;
+}
+main input{
+    width: 650px;
+    height: 65px;
+    padding: 5px 15px;
+    border: none ;
+    outline: none;
+    font-size: 20px;
+}
+main  button{
+width: 80px;
+height: 80%;
+border: none;
+background-color: #52b035;
+font-size: 18px;
+color: white;
+cursor: pointer;
+position: absolute;
+top: 50%;
+left: 5px;
+transform: translateY(-50%);
+}
+/* end main */
+/* start services */
+
+.services{
+    min-height: 100vh;
+    padding: 50px;
+    width: 100%;
+
+}
+.services h3{
+    text-align: center;
+    font-family: ' Noto Sana=s Arabic ', sans-serif;
+
+}
+.services .parant-services{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.services .parent-services .service1{
+    width: 23%;
+    height: 200px;
+    background-image: url('ai.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 100% 100%;
+    margin: 20px auto;
+position: relative;
+}.services .parent-services .service::after{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .4;
+    content: "";
+    position: absolute;
+     left: 0;
+     top: 0;
+     
+}
+
+/*   photos  */
+.services .parent-services .service service-two {
+background-image: url("audiio.jpg");
+}
+.services .parent-services .service-three {
+    background-image: url("life.jpg");
+    }
+    .services .parent-services .service-four {
+        background-image: url("data.jpg");
+       }
+       .services .parent-services .service-five {
+        background-image: url("remote.jpg")
+          }
+          .services .parent-services .service-six {                
+                background-image: url("progamer.jpg");
+            }
+            .services .parent-services .service-seven {
+                          background-image: url("enginer.jpg");
+                }
+                .services .parent-services .service-eight {
+                  background-image: url("data.jpg");
+                        }
+
+    .services .parant-search{
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+.services .parent-services .service p{
+    font-size: 40px;
+    color: white;
+z-index: 2;
+}
